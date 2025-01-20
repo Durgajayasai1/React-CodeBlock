@@ -113,7 +113,7 @@ export default Counter;`,
               {/* Dropdown Theme Selector */}
               <div className="relative">
                 <select
-                  className="bg-gray-700 text-white text-xs px-3 py-1.5 rounded-md pr-8 focus:outline-none appearance-none cursor-pointer"
+                  className="bg-gray-900 text-white text-xs px-3 py-1.5 rounded-md pr-8 focus:outline-none appearance-none cursor-pointer"
                   value={theme}
                   onChange={(e) => setTheme(e.target.value)}
                   aria-label="Select code theme"
